@@ -3101,7 +3101,7 @@ span.toggle {
 	
 	}
 #powered .paypal {
-	background:url(../image/paypal.png) no-repeat left top;
+	/* background:url(../image/paypal.png) no-repeat left top; */
 	width:68px;
 	height:20px;
 	display:inline-block;
