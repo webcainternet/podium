@@ -8,7 +8,9 @@
 	};
 </script>
 <div class="box specials">
-  <div class="box-heading special-heading"><?php echo $heading_title; ?></div>
+  <div class="box-heading special-heading"><?php /* echo $heading_title; */ ?>
+  	<img src="/image/data/banners/banner01.png">
+  </div>
   <div class="box-content">
 	<div class="box-product">
 		<ul class="row">

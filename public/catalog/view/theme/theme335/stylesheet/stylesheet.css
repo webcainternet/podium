@@ -2136,6 +2136,7 @@ h1.style-1 {
 	text-transform:none;
 	font-weight:normal;
 	margin-left:10px;
+	display: none;
 	}
 .product-info .price .discount{
 	text-transform:none;
@@ -2233,16 +2234,16 @@ a.button-prod i{
 	margin-right:9px;
 	}
 a.button-prod:hover {
-	background-color:#1cbbb4;
+	background-color:#8E42BF;
 	}
 a.button-prod {
 	display:inline-block;
-	background-color:#8E42BF;
+	background-color:#ffc801;
 	
 	font-size:15px;
 	color:#ffffff;
-	padding:9px 19px 10px 11px;
-	margin:0 20px;
+	padding: 14px 39px 15px 31px;
+	margin: 0px 10px 0px 0px;
 	line-height:31px;
 	}
 .product-info .review {

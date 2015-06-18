@@ -34,11 +34,11 @@
 	right:15px;
 	}
 .box .box-content .box-product ul li .name a:hover {
-	color:#ffc801
+	color:#ffffff;
 	}
-.box .box-content .box-product ul li .name a {color:#fff; height:18px; overflow:hidden; display:block;}
+.box .box-content .box-product ul li .name a {color:#000000; height:18px; overflow:hidden; display:block;}
 .box .box-content .box-product ul li .name {
-	background-color:#000000;
+	background-color:#ffc801;
 	padding:16px 80px 17px 20px;
 	}
 .box .box-content .box-product ul li .price .price-old {color:#fff; display:none;}
