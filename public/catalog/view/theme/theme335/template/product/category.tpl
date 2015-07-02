@@ -1,5 +1,24 @@
 <?php echo $header; ?>
 
+<style type="text/css">
+	.style-1 {
+		display: none;
+	}
+	.category-info {
+		display: none;
+	}
+
+	.new-products {
+		display: none;
+	}
+	 .info {
+		display: none;
+	}
+	.bestsellers {
+		display: none;
+	}
+</style>
+
 <?php
 if ($_GET['path'] == 57) {
 	echo "</div></div>";	
@@ -134,9 +153,13 @@ if ($_GET['path'] == 57) {
 		<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
 		<?php } ?>
 		<?php if (!$product['special']) { ?>
+		<span class="price-new" style="font-size: 16px; color: #9c9c9d;  line-height: 26px;">Por: </span><br>
 		<?php echo $product['price']; ?>
-		<?php } else { ?><span class="price-new"><?php echo $product['special']; ?></span>
-		<span class="price-old"><?php echo $product['price']; ?></span> 
+		<?php } else { ?>
+		<span class="price-old" style="line-height: 26px;">De: <?php echo $product['price']; ?></span> <br>
+		<span class="price-new" style="font-size: 16px;  line-height: 26px;">Por: </span>
+		<span class="price-new"><?php echo $product['special']; ?></span>
+		
 		<?php } ?>
 		</div>
 		<?php } ?>

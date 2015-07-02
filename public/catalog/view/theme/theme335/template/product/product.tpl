@@ -462,10 +462,22 @@
 			<div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
 			<?php if ($product['price']) { ?>
 				<div class="price">
-				<?php if (!$product['special']) { ?>
+				<?php /* if (!$product['special']) { ?>
 				<?php echo $product['price']; ?>
 				<?php } else { ?>
 				<span class="price-new"><?php echo $product['special']; ?></span><span class="price-old"><?php echo $product['price']; ?></span>
+				<?php } ?>
+				</div>
+				<?php } */ ?>
+
+				<?php if (!$product['special']) { ?>
+				<span class="price-new" style="font-size: 16px; color: #9c9c9d;  line-height: 26px;">Por: </span><br>
+				<?php echo $product['price']; ?>
+				<?php } else { ?>
+				<span class="price-old" style="line-height: 26px;">De: <?php echo $product['price']; ?></span> <br>
+				<span class="price-new" style="font-size: 16px;  line-height: 26px;">Por: </span>
+				<span class="price-new"><?php echo $product['special']; ?></span>
+				
 				<?php } ?>
 				</div>
 				<?php } ?>

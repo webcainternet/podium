@@ -36,16 +36,20 @@
 .box .box-content .box-product ul li .name a:hover {
 	color:#ffffff;
 	}
-.box .box-content .box-product ul li .name a {color:#000000; height:18px; overflow:hidden; display:block;}
+.box .box-content .box-product ul li .name a {color:#FFFFFF; height:18px; overflow:hidden; display:block;}
+.box .box-content .box-product ul li .name a:hover {
+color: #ffc801;
+}
+
 .box .box-content .box-product ul li .name {
-	background-color:#ffc801;
+	background-color:#000000;
 	padding:16px 80px 17px 20px;
 	}
 .box .box-content .box-product ul li .price .price-old {color:#fff; display:none;}
 .box .box-content .box-product ul li .price .price-new {margin:0;}
 .box .box-content .box-product ul li .price {
-	background-color:#8e42bf;
-	color:#fff;
+	  background-color: #ffc801;
+  color: #000;
 	float:right;
 	padding:10px 10px;
 	}

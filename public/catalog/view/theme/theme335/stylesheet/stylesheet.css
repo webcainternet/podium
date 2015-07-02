@@ -908,8 +908,9 @@ header .links a {
 		}
 /*******************************************************************************************************************************************************************************/
 .name a {
+	font-size: 18px;
+  	text-transform: uppercase;
 	text-decoration:none;
-	font-size:15px;
 	color:#3333;
 	font-family: 'Port Lligat Slab', serif;
 	}
@@ -1219,7 +1220,7 @@ a.button {
 	display: inline-block;
 	text-decoration: none;
 	cursor: pointer;
-	background:#8e42bf;
+	background:#ffc801;
 	font-size:12px;
 	line-height:18px;
 	}
@@ -1235,7 +1236,7 @@ a.button span {
 	
 	}
 a.button:hover {
-	background:#1cbbb4;
+	background:#8e42bf;
 	}
 a.button:hover span {
 	color:#fff;
@@ -1464,6 +1465,7 @@ aside .box .box-content .box-product ul>li {
 .box.subcat {
 	border-bottom:0;
 	padding-bottom:0;
+	display: none;
 	}
 .box-product.box-subcat {
 	margin-top:0 !important
@@ -1947,12 +1949,16 @@ h1.style-1 {
 
 .product-list .price-tax {
 	font-size:12px;
-	display:block;
+	display: none;
 }
 /*.product-list .price .price-old,.product-list .price .price-new, .product-list .price .price-1{
 	background-color:#ffc801;
 	color:#fff
 }*/
+.price-old {
+	font-size: 16px;
+}
+
 .product-grid .price-old {
 	text-decoration: line-through;
 }
