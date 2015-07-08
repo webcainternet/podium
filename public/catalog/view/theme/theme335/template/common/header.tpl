@@ -200,7 +200,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-12" style="background: url('/image/data/podium/logo/topo_logo.jpg');">
 				<?php if ($logo) { ?>
 					<div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
 				<?php } ?>
