@@ -52,7 +52,7 @@
 }
 
 .cbp-fwslider nav span:hover {
-	background: #378fc3;
+	background: #ffc801;
 }
 
 .cbp-fwslider nav span.cbp-fwnext {
@@ -86,9 +86,9 @@
 }
 
 .cbp-fwdots span.cbp-fwcurrent {
-	background: #47a3da;
-	box-shadow: 0 0 0 2px #47a3da;
+	background: #ffc801;
+	/* box-shadow: 0 0 0 2px #47a3da;
 	-webkit-transition: box-shadow 0.2s ease-in-out;
 	-moz-transition: box-shadow 0.2s ease-in-out;
-	transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out; */
 }
