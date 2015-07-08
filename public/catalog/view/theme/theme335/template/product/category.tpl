@@ -19,35 +19,8 @@
 	}
 </style>
 
-<?php
-if ($_GET['path'] == 57) {
-	echo "</div></div>";	
-}
-?>
 
-<?php if ($_GET['path'] == 20) { ?>
-<div style="width: 100%; background-image: url('/Jssor.Slider/img/1920/purple.jpg'); height: 200px; margin-bottom: 35px;">
-<?php } ?>
-
-
-<?php if ($_GET['path'] == 17) { ?>
-<div style="width: 100%; background-image: url('/Jssor.Slider/img/1920/purple.jpg'); height: 380px; margin-bottom: 35px;">
-<?php } ?>
-
-<?php if ($_GET['path'] == 57) { ?>
-<div style="width: 100%; background-image: url('/Jssor.Slider/img/1920/purple.jpg'); height: 240px; margin-bottom: 35px;">
-<?php } ?>
-
-
-
-&nbsp;
-</div>
-
-<?php
-if ($_GET['path'] == 57) {
-	echo "<div><div class=\"container\">";	
-}
-?>
+<div style="width: 100%; background-image: url('/Jssor.Slider/img/1920/purple.jpg'); height: 380px; margin-bottom: 35px;">&nbsp;</div>
 
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
