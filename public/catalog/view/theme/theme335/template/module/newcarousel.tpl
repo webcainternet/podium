@@ -7,11 +7,27 @@
         <div style="float: left; width: 100%;">
             <div id="cbp-fwslider" class="cbp-fwslider">
                 <ul>
-                    <li><a href="#"><img src="/FullWidthImageSlider/images/1.jpg" alt="img01"/></a></li>
-                    <li><a href="#"><img src="/FullWidthImageSlider/images/2.jpg" alt="img02"/></a></li>
-                    <li><a href="#"><img src="/FullWidthImageSlider/images/3.jpg" alt="img03"/></a></li>
-                    <li><a href="#"><img src="/FullWidthImageSlider/images/4.jpg" alt="img04"/></a></li>
-                    <li><a href="#"><img src="/FullWidthImageSlider/images/5.jpg" alt="img05"/></a></li>
+                    <?php
+                        // Create connection
+                        $conn = new mysqli(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+                        // Check connection
+                        if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                        } 
+
+                        $sql = "SELECT * FROM oc_banner_image WHERE banner_id = 23 ORDER BY banner_image_id DESC";
+                        $result = $conn->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            // output data of each row
+                            while($row = $result->fetch_assoc()) {
+                                echo '<li><a href="'.$row["link"].'"><img src="/image/'.$row["image"].'" alt="img01"/></a></li>';
+                            }
+                        } else {
+                            echo "<!-- No banner -->";
+                        }
+                        $conn->close();
+                      ?> 
                 </ul>
             </div>
         </div>

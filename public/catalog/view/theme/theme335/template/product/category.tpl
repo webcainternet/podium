@@ -17,10 +17,43 @@
 	.bestsellers {
 		display: none;
 	}
+	.price {
+		height: 50px;
+	}
 </style>
 
+<!-- BANNER Categoria -->
+<?php 
+	$iddacateg = $this->request->get['path'];
+	
+	// Create connection
+	$conn = new mysqli(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+	// Check connection
+	if ($conn->connect_error) {
+	    die("Connection failed: " . $conn->connect_error);
+	} 
 
-<div style="width: 100%; background-image: url('/Jssor.Slider/img/1920/purple.jpg'); height: 380px; margin-bottom: 35px;">&nbsp;</div>
+	$sql = "SELECT * FROM oc_url_alias WHERE query = 'category_id=".$iddacateg."'";
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	    // output data of each row
+	    while($row = $result->fetch_assoc()) {
+	    	$filenameb = DIR_IMAGE.'data/banners/categoria/'.$row["keyword"].'.png';
+	    	$filenameb2 = '/image/data/banners/categoria/'.$row["keyword"].'.png';
+	    	if (file_exists($filenameb)) {
+			    echo '<div class="box-heading" style="margin-left: 15px; margin-bottom: 15px;"><img width="1170" src="'.$filenameb2.'"></div>';
+			} else {
+			    echo "<!-- Não existe imagem de banner -->";
+			}
+	    	
+	    }
+	} else {
+	    echo "<!-- No banner -->";
+	}
+	$conn->close();
+?>
+<!-- FIM - BANNER Categoria -->
 
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
