@@ -92,7 +92,7 @@
 						
 						
 						<?php if ($product['price']) { ?>
-						<div class="price" style="color: #ffc801; background-color: #000;">
+						<div class="price">
 							<?php if (!$product['special']) { ?>
 							
 							
@@ -112,11 +112,10 @@
 						<?php } ?>
 
 
-						<div class="name " style="padding: 12px 80px 12px 10px;  background-color: #ffc801;"><a style="font-size: 12px;
+						<div class="name " style="padding: 12px 80px 12px 10px;"><a style="font-size: 12px;
   max-width: 156px;
   line-height: 18px;
-  height: 33px;
-  color: #000;" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+  height: 33px;" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
 
 
 
