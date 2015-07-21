@@ -4,6 +4,17 @@
 	.col-sm-9 {
     width: 100%;
   }
+  .col-sm-4  {
+  	width: 49.999% !important;
+  }
+  .col-sm-8 {
+  	width: 49.999% !important;
+  }
+  .product-info .image {
+	  max-width: 570px;
+	  max-height: 645px;
+	  height: 645px;
+  }
 </style>
 
 <?php echo $column_left; ?>
