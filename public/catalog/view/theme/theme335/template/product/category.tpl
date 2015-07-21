@@ -34,6 +34,7 @@
 	} 
 
 	$sql = "SELECT * FROM oc_url_alias WHERE query = 'category_id=".$iddacateg."'";
+	echo "<!-- sql: ".$sql." -->";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
@@ -41,6 +42,7 @@
 	    while($row = $result->fetch_assoc()) {
 	    	$filenameb = DIR_IMAGE.'data/banners/categoria/'.$row["keyword"].'.png';
 	    	$filenameb2 = '/image/data/banners/categoria/'.$row["keyword"].'.png';
+	    	echo "<!-- filenameb: ".$filenameb." -->";
 	    	if (file_exists($filenameb)) {
 			    echo '<div class="box-heading" style="margin-left: 15px; margin-bottom: 15px;"><img width="1170" src="'.$filenameb2.'"></div>';
 			} else {
