@@ -26,12 +26,11 @@
 <?php 
 	$iddacateg = $this->request->get['path'];
 
-	echo "<!-- strpos: ".strpos($iddacateg, "_")." -->";
-	if (strpos($iddacateg, "_") === true) {
-		$iddacategorias = substr($iddacateg, strpos($iddacateg, "_"), strlen($iddacateg) - strpos($iddacateg, "_"));
-		$iddacateg = "category_id=".$iddacategorias;
-		echo "<!-- iddacateg: ".$iddacateg." -->";
-	} 
+	if (strpos($iddacateg, "_") != "") {
+		$iddacategorias = substr($iddacateg, strpos($iddacateg, "_") + 1, strlen($iddacateg) - strpos($iddacateg, "_"));
+		$iddacateg = $iddacategorias; 
+	}
+	
 	// Create connection
 	$conn = new mysqli(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 	// Check connection
@@ -40,7 +39,7 @@
 	} 
 
 	$sql = "SELECT * FROM oc_url_alias WHERE query = 'category_id=".$iddacateg."'";
-	echo "<!-- sql: ".$sql." -->";
+
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
@@ -48,7 +47,7 @@
 	    while($row = $result->fetch_assoc()) {
 	    	$filenameb = DIR_IMAGE.'data/banners/categoria/'.$row["keyword"].'.jpg';
 	    	$filenameb2 = '/image/data/banners/categoria/'.$row["keyword"].'.jpg';
-	    	echo "<!-- filenameb: ".$filenameb." -->";
+
 	    	if (file_exists($filenameb)) {
 			    echo '<div class="box-heading" style="margin-left: 15px; margin-bottom: 15px;"><img width="1170" src="'.$filenameb2.'"></div>';
 			} else {
