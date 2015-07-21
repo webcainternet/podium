@@ -26,6 +26,7 @@
 <?php 
 	$iddacateg = $this->request->get['path'];
 
+	echo "<!-- strpos: ".strpos($iddacateg, "_")." -->";
 	if (strpos($iddacateg, "_") === true) {
 		$iddacategorias = substr($iddacateg, strpos($iddacateg, "_"), strlen($iddacateg) - strpos($iddacateg, "_"));
 		$iddacateg = "category_id=".$iddacategorias;
