@@ -25,7 +25,12 @@
 <!-- BANNER Categoria -->
 <?php 
 	$iddacateg = $this->request->get['path'];
-	
+
+	if (strpos($iddacateg, "_")) === true) {
+		$iddacategorias = substr($iddacateg, strpos($iddacateg, "_"), strlen($iddacateg) - strpos($iddacateg, "_"));
+		$iddacateg = "category_id=".$iddacategorias;
+		echo "<!-- iddacateg: ".$iddacateg." -->";
+	} 
 	// Create connection
 	$conn = new mysqli(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 	// Check connection
