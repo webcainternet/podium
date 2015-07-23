@@ -98,3 +98,276 @@
 2015-06-11 8:10:48 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
 2015-06-11 8:11:52 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
 2015-06-11 8:11:52 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:40:22 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:40:22 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:40:22 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:40:22 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:42:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:44:53 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:44:53 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:44:53 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:44:53 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:45:44 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:45:44 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:45:44 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:45:44 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 451
+2015-06-17 22:46:59 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:46:59 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:46:59 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:46:59 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:47:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:47:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:47:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:47:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 466
+2015-06-17 22:47:37 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:47:37 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:47:37 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:47:37 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:49:16 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:49:16 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:49:16 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:49:16 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:29 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:29 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:29 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:29 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:30 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:30 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:30 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:51:30 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:52:02 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:52:02 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:52:02 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:52:02 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:53:09 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:53:09 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:53:09 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-17 22:53:09 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 9:42:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 9:42:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 9:42:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 9:42:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 10:39:27 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 10:39:27 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 10:53:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 10:53:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 471
+2015-06-18 13:22:41 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-06-18 13:22:41 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:25:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:25:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:25:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:25:17 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:45:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:45:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:45:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:45:19 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:38 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:38 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:38 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:38 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:39 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:39 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:39 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:52:39 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:54:11 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:56:32 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:14 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:14 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:14 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:14 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:15 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:15 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:15 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 11:57:15 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 479
+2015-07-01 12:00:55 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:00:55 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:00:55 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:00:55 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:01:20 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:01:20 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:16:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:16:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:16:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-01 12:16:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-02 3:55:59 - PHP Notice:  Undefined index: description in /Users/fernandomendes/github/podium/public/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 392
+2015-07-13 3:01:29 - PHP Warning:  require(../../../../config.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/module/featured.tpl on line 15
+2015-07-13 3:01:29 - PHP Warning:  require(../../../../config.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/module/featured.tpl on line 15
+2015-07-13 3:01:36 - PHP Warning:  require(../../../config.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/module/featured.tpl on line 15
+2015-07-13 3:01:36 - PHP Warning:  require(../../../config.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/module/featured.tpl on line 15
+2015-07-13 3:01:39 - PHP Warning:  require(../../config.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/module/featured.tpl on line 15
+2015-07-13 3:01:39 - PHP Warning:  require(../../config.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/module/featured.tpl on line 15
+2015-07-13 3:01:43 - PHP Notice:  Constant HTTP_SERVER already defined in /Users/fernandomendes/github/podium/public/config.php on line 3
+2015-07-13 3:01:43 - PHP Notice:  Constant HTTPS_SERVER already defined in /Users/fernandomendes/github/podium/public/config.php on line 6
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_APPLICATION already defined in /Users/fernandomendes/github/podium/public/config.php on line 9
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_SYSTEM already defined in /Users/fernandomendes/github/podium/public/config.php on line 10
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_DATABASE already defined in /Users/fernandomendes/github/podium/public/config.php on line 11
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_LANGUAGE already defined in /Users/fernandomendes/github/podium/public/config.php on line 12
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_TEMPLATE already defined in /Users/fernandomendes/github/podium/public/config.php on line 13
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_CONFIG already defined in /Users/fernandomendes/github/podium/public/config.php on line 14
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_IMAGE already defined in /Users/fernandomendes/github/podium/public/config.php on line 15
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_CACHE already defined in /Users/fernandomendes/github/podium/public/config.php on line 16
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_DOWNLOAD already defined in /Users/fernandomendes/github/podium/public/config.php on line 17
+2015-07-13 3:01:43 - PHP Notice:  Constant DIR_LOGS already defined in /Users/fernandomendes/github/podium/public/config.php on line 18
+2015-07-13 3:01:43 - PHP Notice:  Constant DB_DRIVER already defined in /Users/fernandomendes/github/podium/public/config.php on line 21
+2015-07-13 3:01:43 - PHP Notice:  Constant DB_HOSTNAME already defined in /Users/fernandomendes/github/podium/public/config.php on line 22
+2015-07-13 3:01:43 - PHP Notice:  Constant DB_USERNAME already defined in /Users/fernandomendes/github/podium/public/config.php on line 23
+2015-07-13 3:01:43 - PHP Notice:  Constant DB_PASSWORD already defined in /Users/fernandomendes/github/podium/public/config.php on line 24
+2015-07-13 3:01:43 - PHP Notice:  Constant DB_DATABASE already defined in /Users/fernandomendes/github/podium/public/config.php on line 25
+2015-07-13 3:01:43 - PHP Notice:  Constant DB_PREFIX already defined in /Users/fernandomendes/github/podium/public/config.php on line 26
+2015-07-13 3:13:09 - PHP Notice:  Undefined variable: path in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:16:47 - PHP Notice:  Undefined variable: category_id in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:16:53 - PHP Notice:  Undefined variable: category in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:17:00 - PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:17:04 - PHP Notice:  Use of undefined constant ALL - assumed 'ALL' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:17:12 - PHP Notice:  Use of undefined constant this - assumed 'this' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:22:45 - PHP Notice:  Undefined property: Request::$_route_ in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:24:57 - PHP Notice:  Undefined index: product_id in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:25:44 - PHP Notice:  Undefined property: Request::$REDIRECT_QUERY_STRING in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:26:04 - PHP Notice:  Trying to get property of non-object in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:26:10 - PHP Notice:  Trying to get property of non-object in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:27:10 - PHP Notice:  Trying to get property of non-object in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:27:14 - PHP Notice:  Trying to get property of non-object in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 3:41:10 - PHP Notice:  Undefined index: _route_ in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/category.tpl on line 3
+2015-07-13 4:06:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-13 4:06:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-13 4:06:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-13 4:06:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-13 4:15:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-13 4:15:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:08 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:44:42 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:06 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:20 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:20 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:20 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:20 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:56 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:56 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:56 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:56 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:45:57 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:47:18 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:47:18 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:47:18 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:47:18 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 491
+2015-07-21 17:47:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:46 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:47:51 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 494
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:48:23 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 497
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:53:21 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:13 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:54:47 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:24 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:24 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:24 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:24 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
