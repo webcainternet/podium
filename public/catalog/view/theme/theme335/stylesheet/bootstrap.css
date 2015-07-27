@@ -1117,9 +1117,8 @@ pre code {
   .col-sm-9,
   .col-sm-10,
   .col-sm-11 {
-    float: right;
+    float: left;
   }
-  .col-sm-4,
   .col-sm-3 {
     float: left;
   }

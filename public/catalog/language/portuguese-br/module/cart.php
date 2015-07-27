@@ -9,5 +9,5 @@ $_['text_cart']     = 'Ver carrinho';
 $_['text_checkout'] = 'Finalizar compra';
 
 $_['text_payment_profile'] = 'Perfil de pagamento';
-
+$_['text_latest_added']   = 'Últimos adicionados';
 ?>

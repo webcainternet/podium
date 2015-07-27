@@ -1,3 +1,6 @@
+
+			  <?php if (!$this->registry->get('category_ajax')) : ?>
+		  
 <?php echo $header; ?>
 
 <style type="text/css">
@@ -130,6 +133,10 @@
 	</div>
   </div>
   <?php } ?>
+
+		  <?php endif; ?>
+		  <div id="brainyfilter-product-container">
+		  
   <?php if ($products) { ?>
   <div class="product-filter">
 		<div class="sort"><b><?php echo $text_sort; ?></b>
@@ -222,6 +229,10 @@
 	  </div>
   </div>
   <?php } ?>
+
+		  </div>
+		  <?php if (!$this->registry->get('category_ajax')) : ?>
+		  
   <?php echo $content_bottom; ?></div>
 
 <?php echo $column_right; ?>
@@ -347,3 +358,5 @@ if (view) {
 </script>-->
 
 <?php echo $footer; ?>
+			  <?php endif; ?>
+		  

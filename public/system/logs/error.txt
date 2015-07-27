@@ -371,3 +371,11 @@
 2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
 2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
 2015-07-21 17:56:25 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:12:12 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:12:12 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:12:12 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:12:12 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:31:07 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:31:07 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:31:07 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502
+2015-07-27 6:31:07 - PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/fernandomendes/github/podium/public/catalog/view/theme/theme335/template/product/product.tpl on line 502

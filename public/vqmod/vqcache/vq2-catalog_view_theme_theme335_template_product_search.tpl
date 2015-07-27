@@ -1,3 +1,6 @@
+
+			  <?php if (!$this->registry->get('category_ajax')) : ?>
+           
 <?php echo $header; ?>
 
 <style type="text/css">
@@ -90,6 +93,10 @@
 	  </div>
   </div>
   <h2><?php echo $text_search; ?></h2>
+
+		  <?php endif; ?>
+		  <div id="brainyfilter-product-container">
+		  
   <?php if ($products) { ?>
   <div class="product-filter">
 	<div class="display"><b><?php echo $text_display; ?></b> <?php echo $text_list; ?> <b>/</b> <a onclick="display('grid');"><?php echo $text_grid; ?></a></div>
@@ -171,6 +178,10 @@
   <?php } else { ?>
   <div class="content"><?php echo $text_empty; ?></div>
   <?php }?>
+
+		  </div>
+		  <?php if (!$this->registry->get('category_ajax')) : ?>
+		  
   <?php echo $content_bottom; ?></div>
 
 <?php echo $column_right; ?>
@@ -334,3 +345,5 @@ if (view) {
 }
 //--></script> 
 <?php echo $footer; ?>
+			  <?php endif; ?>
+           

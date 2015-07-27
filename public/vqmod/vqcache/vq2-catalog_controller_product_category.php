@@ -90,6 +90,23 @@ class ControllerProductCategory extends Controller {
 		}
 				
 		$category_info = $this->model_catalog_category->getCategory($category_id);
+
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					if (!$category_info) {
+                        $this->load->language('module/brainyfilter');
+                        $category_info = array(
+                            'name' => $this->language->get('text_bf_page_title'),
+                            'description' => '',
+                            'meta_description' => '',
+                            'meta_keyword' => '',
+                            'meta_title' => '',
+                            'image' => '',
+                        );
+                        $this->request->get['path'] = 0;
+                    }
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+                
+			
 	
 		if ($category_info) {
 	  		$this->document->setTitle($category_info['name']);
@@ -181,7 +198,22 @@ class ControllerProductCategory extends Controller {
 					'filter_sub_category' => true
 				);
 				
-				$product_total = $this->model_catalog_product->getTotalProducts($data);				
+				
+			  
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				$product_total = 0;
+				if ($this->config->get('config_product_count')) {
+
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					$settings = $this->config->get('bf_layout_basic');
+					if (isset($settings['global']['subcategories_fix']) && $settings['global']['subcategories_fix']) {
+						$data['filter_sub_category'] = true;
+					}
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+			
+					$product_total = $this->model_catalog_product->getTotalProducts($data);
+				}/* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+		  				
 				
   $image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));   
 				$this->data['categories'][] = array(
@@ -202,6 +234,15 @@ class ControllerProductCategory extends Controller {
 				'limit'              => $limit
 			);
 					
+
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					$settings = $this->config->get('bf_layout_basic');
+					if (isset($settings['global']['subcategories_fix']) && $settings['global']['subcategories_fix']) {
+						$data['filter_sub_category'] = true;
+					}
+                    $data['filter_bfilter'] = true;
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+			
 			$product_total = $this->model_catalog_product->getTotalProducts($data); 
 			
 			$results = $this->model_catalog_product->getProducts($data);
@@ -261,6 +302,14 @@ class ControllerProductCategory extends Controller {
 				$url .= '&limit=' . $this->request->get['limit'];
 			}
 										
+
+			  
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+		  
 			$this->data['sorts'] = array();
 			
 			$this->data['sorts'][] = array(
@@ -333,6 +382,14 @@ class ControllerProductCategory extends Controller {
 				$url .= '&order=' . $this->request->get['order'];
 			}
 			
+
+			  
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+		  
 			$this->data['limits'] = array();
 	
 			$limits = array_unique(array($this->config->get('config_catalog_limit'), 25, 50, 75, 100));
@@ -365,6 +422,14 @@ class ControllerProductCategory extends Controller {
 				$url .= '&limit=' . $this->request->get['limit'];
 			}
 					
+
+			  
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+		  
 			$pagination = new Pagination();
 			$pagination->total = $product_total;
 			$pagination->page = $page;

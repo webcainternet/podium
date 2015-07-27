@@ -1,0 +1,300 @@
+<modification>  
+   <id>Brainy Filter</id>
+   <name>Brainy Filter</name>
+   <version>Ultimate 4.6.1</version>
+   <vqmver>2.4.1</vqmver>
+   <author>Giant Leap Lab</author>
+   <file name="catalog/controller/product/category.php">
+   	  <operation>
+		  <search position="before"><![CDATA[$pagination = new Pagination();]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation>
+		  <search position="before"><![CDATA[$this->data['sorts'] = array();]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation>
+		  <search position="before"><![CDATA[$this->data['limits'] = array();]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation>
+		  <search position="replace" index="1"><![CDATA[$product_total = $this->model_catalog_product->getTotalProducts($data);]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				$product_total = 0;
+				if ($this->config->get('config_product_count')) {
+					$product_total = $this->model_catalog_product->getTotalProducts($data);
+				}/* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation>
+			<search position="before" index="1"><![CDATA[$product_total = $this->model_catalog_product->getTotalProducts($data);]]></search>
+            <add><![CDATA[
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					$settings = $this->config->get('bf_layout_basic');
+					if (isset($settings['global']['subcategories_fix']) && $settings['global']['subcategories_fix']) {
+						$data['filter_sub_category'] = true;
+					}
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+			</add>
+	  </operation>
+	  <operation>
+			<search position="after" offset="10"><![CDATA[$this->data['products'] = array();]]></search>
+            <add><![CDATA[
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					$settings = $this->config->get('bf_layout_basic');
+					if (isset($settings['global']['subcategories_fix']) && $settings['global']['subcategories_fix']) {
+						$data['filter_sub_category'] = true;
+					}
+                    $data['filter_bfilter'] = true;
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+			</add>
+	  </operation>
+	  <operation>
+			<search position="after"><![CDATA[$category_info = $this->model_catalog_category->getCategory($category_id);]]></search>
+            <add><![CDATA[
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					if (!$category_info) {
+                        $this->load->language('module/brainyfilter');
+                        $category_info = array(
+                            'name' => $this->language->get('text_bf_page_title'),
+                            'description' => '',
+                            'meta_description' => '',
+                            'meta_keyword' => '',
+                            'meta_title' => '',
+                            'image' => '',
+                        );
+                        $this->request->get['path'] = 0;
+                    }
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+                ]]>
+			</add>
+	  </operation>
+   </file>
+   <file name="catalog/view/theme/*/template/product/category.tpl">
+   	  <operation>
+		   <search position="before"><![CDATA[<?php echo $header; ?>]]></search>
+		  <add>
+			  <![CDATA[<?php if (!$this->registry->get('category_ajax')) : ?>]]>
+		  </add>
+	  </operation>
+	  <operation>
+		  <search position="before" index="1"><![CDATA[<?php if ($products) { ?>]]></search>
+		  <add><![CDATA[
+		  <?php endif; ?>
+		  <div id="brainyfilter-product-container">
+		  ]]></add>
+	  </operation>
+	  <operation>
+		  <search position="before"><![CDATA[<?php echo $content_bottom; ?>]]></search>
+		  <add><![CDATA[
+		  </div>
+		  <?php if (!$this->registry->get('category_ajax')) : ?>
+		  ]]></add>
+	  </operation>
+	  <operation>
+		  <search position="bottom"></search>
+		  <add>
+			  <![CDATA[<?php endif; ?>]]>
+		  </add>
+	  </operation>
+   </file>
+   <file name="catalog/controller/product/search.php">
+       <operation>
+           <search position="before"><![CDATA[$pagination = new Pagination();]]></search>
+           <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+			  ]]>
+           </add>
+       </operation>
+       <operation>
+           <search position="before"><![CDATA[$this->data['sorts'] = array();]]></search>
+           <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+			  ]]>
+           </add>
+       </operation>
+       <operation>
+           <search position="before"><![CDATA[$this->data['limits'] = array();]]></search>
+           <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($this->request->get['bfilter'])) {
+					$url .= '&bfilter=' . urlencode(htmlspecialchars_decode($this->request->get['bfilter']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+			  ]]>
+           </add>
+       </operation>
+       <operation>
+           <search position="before" index="1"><![CDATA[$product_total = $this->model_catalog_product->getTotalProducts($data);]]></search>
+           <add><![CDATA[
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+					$settings = $this->config->get('bf_layout_basic');
+					if (isset($settings['global']['subcategories_fix']) && $settings['global']['subcategories_fix']) {
+						$data['filter_sub_category'] = true;
+					}
+                    $data['filter_bfilter'] = true;
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+                ]]>
+           </add>
+       </operation>
+       <operation>
+           <search position="replace"><![CDATA[if (isset($this->request->get['search']) || isset($this->request->get['tag'])) {]]></search>
+           <add><![CDATA[
+                    /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+                    /* Show product list in any case */
+					if (true) {
+                    /* Brainy Filter Pro (brainyfilter.xml) - End ->*/
+                ]]>
+           </add>
+       </operation>
+   </file>
+   <file name="catalog/view/theme/*/template/product/search.tpl">
+       <operation>
+           <search position="before"><![CDATA[<?php echo $header; ?>]]></search>
+           <add>
+			  <![CDATA[<?php if (!$this->registry->get('category_ajax')) : ?>]]>
+           </add>
+       </operation>
+       <operation>
+           <search position="before" index="1"><![CDATA[<?php if ($products) { ?>]]></search>
+           <add><![CDATA[
+		  <?php endif; ?>
+		  <div id="brainyfilter-product-container">
+		  ]]></add>
+       </operation>
+       <operation>
+           <search position="before"><![CDATA[<?php echo $content_bottom; ?>]]></search>
+           <add><![CDATA[
+		  </div>
+		  <?php if (!$this->registry->get('category_ajax')) : ?>
+		  ]]></add>
+       </operation>
+       <operation>
+           <search position="bottom"></search>
+           <add>
+			  <![CDATA[<?php endif; ?>]]>
+           </add>
+       </operation>
+   </file>
+    <file name="catalog/model/catalog/product.php">
+        <operation>
+		  <search position="before" index="1">
+			  <![CDATA[$query = $this->db->query($sql);]]>
+		  </search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($data['filter_bfilter'])) {
+					$this->load->model('module/brainyfilter');
+                    $this->model_module_brainyfilter->setData($data);
+					$sql = $this->model_module_brainyfilter->prepareQueryForCategory();
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation>
+		  <search position="before" index="3">
+			  <![CDATA[$query = $this->db->query($sql);]]>
+		  </search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				if (isset($data['filter_bfilter'])) {
+					$this->load->model('module/brainyfilter');
+                    $this->model_module_brainyfilter->setData($data);
+					$sql = $this->model_module_brainyfilter->prepareQueryForTotal();
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+   </file>
+   <file name="catalog/controller/module/category.php">
+   	  <operation error="skip">
+		  <search position="replace"><![CDATA[$total = $this->model_catalog_product->getTotalProducts(array('filter_category_id' => $category['category_id']));]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				$total = 0;
+				if ($this->config->get('config_product_count')) {
+					$total = $this->model_catalog_product->getTotalProducts(array('filter_category_id' => $category['category_id']));
+				}
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation error="skip">
+		  <search position="before"><![CDATA[$product_total = $this->model_catalog_product->getTotalProducts($data);]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				$product_total = 0;
+				if ($this->config->get('config_product_count')) {
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+	  <operation error="skip">
+		  <search position="after"><![CDATA[$total += $product_total;]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+                }
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+   </file>
+    <file name="admin/model/catalog/product.php">
+   	  <operation>
+		  <search position="before" index="1,2"><![CDATA[$this->cache->delete('product');]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				$this->load->model('module/brainyfilter');
+                $this->model_module_brainyfilter->addProductProperties($product_id);
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+   	  <operation>
+		  <search position="before" index="3"><![CDATA[$this->cache->delete('product');]]></search>
+		  <add>
+			  <![CDATA[
+                /* Brainy Filter Pro (brainyfilter.xml) - Start ->*/
+				$this->load->model('module/brainyfilter');
+                $this->model_module_brainyfilter->deleteProductProperties($product_id);
+                /* Brainy Filter Pro (brainyfilter.xml) - End ->*/]]>
+		  </add>
+	  </operation>
+   </file>
+</modification>
