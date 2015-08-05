@@ -34,24 +34,23 @@
 
         <script src="/FullWidthImageSlider/js/jquery.cbpFWSlider.min.js"></script>
         <script>
-            $( function() {
-                /*
-                - how to call the plugin:
-                $( selector ).cbpFWSlider( [options] );
-                - options:
-                {
-                    // default transition speed (ms)
-                    speed : 500,
-                    // default transition easing
-                    easing : 'ease'
-                }
-                - destroy:
-                $( selector ).cbpFWSlider( 'destroy' );
-                */
-
-                $( '#cbp-fwslider' ).cbpFWSlider();
-
-            } );
+            $('document').ready(function () {
+                // init slider
+                $('#cbp-fwslider').cbpFWSlider();
+                /**
+                      Set a 3 seconds interval
+                      if next button is visible (so is not the last slide)  click next button
+                      else it finds first dot and click it to start from the 1st slide
+                 **/
+                setInterval(function () {
+                    if ($('.cbp-fwnext').is(":visible")) {
+                        $('.cbp-fwnext').click();
+                    }
+                    else {
+                        $('.cbp-fwdots').find('span').click();
+                    }
+                }, 5000);
+            });
         </script>
 
 
