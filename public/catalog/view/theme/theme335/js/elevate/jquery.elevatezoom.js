@@ -115,6 +115,8 @@ if ( typeof Object.create !== 'function' ) {
 
 			startZoom: function( ) {
 				var self = this;
+
+
 				//get dimensions of the non zoomed image
 				self.nzWidth = self.$elem.width();
 				self.nzHeight = self.$elem.height();
@@ -258,8 +260,7 @@ if ( typeof Object.create !== 'function' ) {
 				//self.zoomContainer = $('<div/>').addClass('zoomContainer').css({"position":"relative", "height":self.nzHeight, "width":self.nzWidth});
 
 				self.zoomContainer = $('<div class="zoomContainer" style="-webkit-transform: translateZ(0);position:absolute;left:'+self.nzOffset.left+'px;top:'+self.nzOffset.top+'px;height:'+self.nzHeight+'px;width:'+self.nzWidth+'px;"></div>');
-				$('body').append(self.zoomContainer);	
-
+				//$('body').append(self.zoomContainer);	
 
 				//this will add overflow hidden and contrain the lens on lens mode       
 				if(self.options.containLensZoom && self.options.zoomType == "lens"){
@@ -295,6 +296,7 @@ if ( typeof Object.create !== 'function' ) {
 					}          
 
 				}
+
 
 
 
