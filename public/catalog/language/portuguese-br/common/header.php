@@ -9,6 +9,7 @@ $_['text_welcome']        = '<li><a href="%s">Entrar</a></li><li><a href="%s">Cr
 $_['text_logged']         = '<li><a href="%s">%s</a></li><li><a href="%s">Sair</a></li>';
 $_['text_account']        = 'Minha conta';
 $_['text_checkout']       = 'Finalizar pedido';
-
+$_['text_category']      = 'Categoria';
 $_['text_latest_added']   = 'Últimos adicionados';
+$_['text_items2']   = '%s';
 ?>
