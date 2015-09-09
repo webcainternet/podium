@@ -15,7 +15,7 @@
 	}
 @media (min-width: 1199px) {
 #menu .brdr{
-		padding-right:340px;
+		/* padding-right:340px; */
 		}
 	}
 @media (min-width: 767px) {
@@ -30,8 +30,8 @@
 #search {
 	z-index:12;
 	position:absolute;
-	bottom:-88px;
-	right:15px;
+	bottom:20px;
+	right:20px;
 	}
 .box .box-content .box-product ul li .name a:hover {
 	color:#ffffff;

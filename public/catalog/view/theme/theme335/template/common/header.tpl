@@ -202,19 +202,27 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 		<div class="row">
 			<div class="col-sm-12" style="background: url('/image/data/podium/logo/topo_logo.jpg');">
 				<?php if ($logo) { ?>
-					<div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
+					<div id="logo">
+						<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a>
+						<div id="search">
+							<div class="inner">
+								<div class="button-search"><i class="fa fa-search" style="margin-right: 10px;"></i></div>
+								<input type="search" name="search" placeholder="<?php echo $text_search; ?>" value="" />
+							</div>
+						</div> 
+					</div>
 				<?php } ?>
-				<!--<div class="phone">
+				<?php /* <div class="phone">
 					<i class="fa fa-phone"></i>
 					<?php echo $telephone; ?>
-				</div>-->
+				</div>
 				
 				<div id="search">
 					<div class="inner">
 						<div class="button-search"><i class="fa fa-search"></i></div>
 						<input type="search" name="search" placeholder="<?php echo $text_search; ?>" value="" />
 					</div>
-				</div>
+				</div> */ ?>
 			</div>
 		</div>
 		<?php if ($categories) { ?>
