@@ -57,7 +57,8 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div id="powered">
-					<ul class="socials">
+				<div class="pagamentos" style="width: 300px; float: right; margin-left: 15px;"><img src="/image/footer-bandeiras.png"></div>
+					<ul class="socials" style="margin-top: -15px;">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 						<li><a href="#"><i class="fa fa-rss"></i></a></li>
@@ -65,7 +66,6 @@
 						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
-					<div class="paypal"></div>
 					
 				</div>
 			</div>
