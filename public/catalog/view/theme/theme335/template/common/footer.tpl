@@ -57,7 +57,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div id="powered">
-				<div class="pagamentos" style="width: 300px; float: right; margin-left: 15px;"><img src="/image/footer-bandeiras.png"></div>
+				<div class="pagamentos" style="width: 300px; float: right; margin-left: 15px; margin-top: -5px;"><img src="/image/footer-bandeiras.png"></div>
 					<ul class="socials" style="margin-top: -15px;">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
