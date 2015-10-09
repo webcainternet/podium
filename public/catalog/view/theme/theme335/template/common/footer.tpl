@@ -57,7 +57,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div id="powered">
-				<div class="pagamentos" style="width: 300px; float: right; margin-left: 15px; margin-top: -5px;">
+				<div class="pagamentos" style="float: right; margin-left: 15px; margin-top: -5px;">
 				Pague com: 
 				<img src="/image/footer-bandeiras.jpg" style="margin-left: 5px; height: 30px;"></div>
 					<ul class="socials" style="margin-top: -15px;">
