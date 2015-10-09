@@ -3115,7 +3115,8 @@ span.toggle {
 	margin:0px 0 0 20%;
 	}
 #powered .socials  {
-	float:right;
+	float: left;
+    margin-right: 15px;
 	}
 #powered .socials li a:hover {color:#ffc801}
 #powered .socials li a {

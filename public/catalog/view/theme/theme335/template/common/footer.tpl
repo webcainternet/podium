@@ -59,7 +59,8 @@
 				<div id="powered">
 				<div class="pagamentos" style="width: 300px; float: right; margin-left: 15px; margin-top: -5px;">
 				Pague com: 
-				<img src="/image/footer-bandeiras.jpg"></div>
+				<img src="/image/footer-bandeiras.jpg" style="margin-left: 5px; height: 30px;"></div>
+					Siga nos:
 					<ul class="socials" style="margin-top: -15px;">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<?php /*
@@ -69,6 +70,7 @@
 						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 						*/ ?>
 					</ul>
+
 					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 					
 				</div>
